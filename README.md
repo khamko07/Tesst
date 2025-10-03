@@ -2,6 +2,25 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages. 
+
+### Automatic Deployment
+1. Push your code to the `main` branch
+2. GitHub Actions will automatically build and deploy to GitHub Pages
+3. Your site will be available at: `https://khamko07.github.io/Tesst/`
+
+### Manual Deployment Setup
+If you prefer manual deployment:
+```bash
+# Install gh-pages package
+npm install --save-dev gh-pages
+
+# Deploy manually
+npm run deploy
+```
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
