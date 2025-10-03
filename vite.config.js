@@ -6,6 +6,9 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // publicPath equivalent from Vue CLI:
+  // use '/Tesst/' in production, '/' in development
+  base: process.env.NODE_ENV === 'production' ? '/Tesst/' : '/',
   plugins: [
     vue(),
     vueDevTools(),
